@@ -20,10 +20,15 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~3.0,>=3.0.12",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.0",
+        "behat/behat": "~3.0",
+        "behat/symfony2-extension": "~2.0",
+        "guzzlehttp/guzzle": "~5.2",
+        "phpspec/phpspec": "~2.1"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "coduo/php-matcher": "~1.1"
     },
     "scripts": {
         "post-root-package-install": [
